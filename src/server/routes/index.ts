@@ -8,7 +8,6 @@ router.get('/', (req, res) => {
 });
 
 router.post('/teste', (req, res) => {
-    console.log(req);
     return res.status(StatusCodes.ACCEPTED).json(req.body);
 });
 
